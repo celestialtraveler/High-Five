@@ -1,0 +1,10 @@
+body {
+	background-color:#eee;
+}
+.outer-container {
+	@include outer-container;
+	padding: 0 15px;
+	@media only screen and (min-width : 68em) {
+		padding: 0;
+	}
+}
